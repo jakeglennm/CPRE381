@@ -1,0 +1,97 @@
+Model Technology ModelSim SE-64 vcom 2020.2 Compiler 2020.04 Apr 19 2020
+Start time: 20:31:27 on Nov 24,2020
+vcom -2008 -work ModelSimWork/work ModelSimWork/src/*.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity twoto1mux
+-- Compiling architecture structure of twoto1mux
+-- Compiling entity twoto1muxflow
+-- Compiling architecture dataflow of twoto1muxflow
+-- Compiling entity alu32
+-- Compiling architecture structure of alu32
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+-- Compiling package vector_type
+-- Compiling entity barrelshifter
+-- Compiling architecture structure of barrelshifter
+-- Compiling entity control_Unit
+-- Compiling architecture control_logic of control_Unit
+-- Compiling entity decoder_5to32
+-- Compiling architecture dataflow of decoder_5to32
+-- Compiling entity dff
+-- Compiling architecture mixed of dff
+-- Compiling entity eightbitshifter
+-- Compiling architecture structure of eightbitshifter
+-- Compiling entity EX_Memreg
+-- Compiling architecture structure of EX_Memreg
+-- Compiling entity fourbitshifter
+-- Compiling architecture structure of fourbitshifter
+-- Compiling entity fullAdder
+-- Compiling architecture structure of fullAdder
+-- Compiling entity generic_reg
+-- Compiling architecture structure of generic_reg
+-- Compiling entity gen_mux
+-- Compiling architecture structure of gen_mux
+-- Compiling entity ID_EXreg
+-- Compiling architecture structure of ID_EXreg
+-- Compiling entity IF_IDreg
+-- Compiling architecture structure of IF_IDreg
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+-- Compiling entity lui_Unit
+-- Compiling architecture dataflow of lui_Unit
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+-- Compiling entity MEM_WBreg
+-- Compiling architecture structure of MEM_WBreg
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+-- Compiling entity mux4
+-- Compiling architecture dataflow of mux4
+-- Loading package vector_type
+-- Compiling entity mux_32to1
+-- Compiling architecture dataflow of mux_32to1
+-- Compiling entity nMuxStructural
+-- Compiling architecture structure of nMuxStructural
+-- Compiling entity notOrg32
+-- Compiling architecture dataflow of notOrg32
+-- Compiling entity onebitshifter
+-- Compiling architecture structure of onebitshifter
+-- Compiling entity onescomp
+-- Compiling architecture structure of onescomp
+-- Compiling entity onescompflow
+-- Compiling architecture dataflow of onescompflow
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+-- Compiling entity projA_alu
+-- Compiling architecture structure of projA_alu
+-- Compiling entity projA_proc
+-- Compiling architecture structure of projA_proc
+-- Compiling entity reg_file
+-- Compiling architecture structure of reg_file
+-- Compiling entity sign_extender
+-- Compiling architecture dataflow of sign_extender
+-- Compiling entity singleALU
+-- Compiling architecture structure of singleALU
+-- Compiling entity single_reg
+-- Compiling architecture structure of single_reg
+-- Compiling entity sixteenbitshifter
+-- Compiling architecture structure of sixteenbitshifter
+-- Compiling entity specialALU
+-- Compiling architecture structure of specialALU
+-- Compiling entity tb_controlunit
+-- Compiling architecture structure of tb_controlunit
+-- Compiling entity tb_pipeline_regs
+-- Compiling architecture behavior of tb_pipeline_regs
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb_SimplifiedMIPSProcessor
+-- Compiling architecture mixed of tb_SimplifiedMIPSProcessor
+-- Compiling entity twobitshifter
+-- Compiling architecture structure of twobitshifter
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+End time: 20:31:29 on Nov 24,2020, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0

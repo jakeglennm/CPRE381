@@ -1,0 +1,339 @@
+Analysis & Synthesis report for toolflow
+Tue Nov 24 17:42:51 2020
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Failed - Tue Nov 24 17:42:51 2020               ;
+; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Standard Edition ;
+; Revision Name                      ; toolflow                                        ;
+; Top-level Entity Name              ; MIPS_Processor                                  ;
+; Family                             ; Cyclone IV E                                    ;
+; Total logic elements               ; N/A until Partition Merge                       ;
+;     Total combinational functions  ; N/A until Partition Merge                       ;
+;     Dedicated logic registers      ; N/A until Partition Merge                       ;
+; Total registers                    ; N/A until Partition Merge                       ;
+; Total pins                         ; N/A until Partition Merge                       ;
+; Total virtual pins                 ; N/A until Partition Merge                       ;
+; Total memory bits                  ; N/A until Partition Merge                       ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                       ;
+; Total PLLs                         ; N/A until Partition Merge                       ;
++------------------------------------+-------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                            ; MIPS_Processor     ; toolflow           ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 2           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Standard Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Tue Nov 24 17:42:35 2020
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off toolflow -c toolflow
+Info (125068): Revision "toolflow" was previously opened in Quartus II software version 18.0.0 Standard Edition. Created Quartus Prime Default Settings File U:/cpre381/proj_C/cpre381-toolflow-release/QuartusWork/toolflow_assignment_defaults.qdf, which contains the default assignment setting information from Quartus II software version 18.0.0 Standard Edition.
+Info (125069): Default assignment values were changed in the current version of the Quartus Prime software -- changes to default assignments values are contained in file c:/intelfpga/20.1/quartus/bin64/assignment_defaults.qdf
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/2to1mux.vhd
+    Info (12022): Found design unit 1: twoto1mux-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/2to1mux.vhd Line: 12
+    Info (12023): Found entity 1: twoto1mux File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/2to1mux.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/2to1muxflow.vhd
+    Info (12022): Found design unit 1: twoto1muxflow-dataflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/2to1muxflow.vhd Line: 12
+    Info (12023): Found entity 1: twoto1muxflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/2to1muxflow.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/ex_memreg.vhd
+    Info (12022): Found design unit 1: EX_Memreg-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/EX_MEMreg.vhd Line: 30
+    Info (12023): Found entity 1: EX_Memreg File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/EX_MEMreg.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/id_exreg.vhd
+    Info (12022): Found design unit 1: ID_EXreg-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/ID_EXreg.vhd Line: 51
+    Info (12023): Found entity 1: ID_EXreg File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/ID_EXreg.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/if_idreg.vhd
+    Info (12022): Found design unit 1: IF_IDreg-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/IF_IDreg.vhd Line: 17
+    Info (12023): Found entity 1: IF_IDreg File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/IF_IDreg.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/mem_wbreg.vhd
+    Info (12022): Found design unit 1: MEM_WBreg-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MEM_WBreg.vhd Line: 27
+    Info (12023): Found entity 1: MEM_WBreg File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MEM_WBreg.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/mips_processor.vhd
+    Info (12022): Found design unit 1: MIPS_Processor-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 32
+    Info (12023): Found entity 1: MIPS_Processor File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/alu32.vhd
+    Info (12022): Found design unit 1: alu32-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/alu32.vhd Line: 12
+    Info (12023): Found entity 1: alu32 File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/alu32.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/andg2.vhd
+    Info (12022): Found design unit 1: andg2-dataflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/andg2.vhd Line: 31
+    Info (12023): Found entity 1: andg2 File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/andg2.vhd Line: 23
+Info (12021): Found 1 design units, including 0 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/avector_type.vhd
+    Info (12022): Found design unit 1: vector_type File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/avector_type.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/barrelshifter.vhd
+    Info (12022): Found design unit 1: barrelshifter-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/barrelshifter.vhd Line: 13
+    Info (12023): Found entity 1: barrelshifter File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/barrelshifter.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/control_unit.vhd
+    Info (12022): Found design unit 1: control_Unit-control_logic File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/control_Unit.vhd Line: 27
+    Info (12023): Found entity 1: control_Unit File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/control_Unit.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/decoder_5to32.vhd
+    Info (12022): Found design unit 1: decoder_5to32-dataflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/decoder_5to32.vhd Line: 10
+    Info (12023): Found entity 1: decoder_5to32 File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/decoder_5to32.vhd Line: 4
+Warning (12018): Entity "dff" will be ignored because it conflicts with Quartus Prime primitive name File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/dff.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/dff.vhd
+    Info (12022): Found design unit 1: dff-mixed File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/dff.vhd Line: 31
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/eightbitshifter.vhd
+    Info (12022): Found design unit 1: eightbitshifter-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/eightbitshifter.vhd Line: 13
+    Info (12023): Found entity 1: eightbitshifter File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/eightbitshifter.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/fourbitshifter.vhd
+    Info (12022): Found design unit 1: fourbitshifter-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/fourbitshifter.vhd Line: 13
+    Info (12023): Found entity 1: fourbitshifter File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/fourbitshifter.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/fulladder.vhd
+    Info (12022): Found design unit 1: fullAdder-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/fulladder.vhd Line: 13
+    Info (12023): Found entity 1: fullAdder File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/fulladder.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/gen_mux.vhd
+    Info (12022): Found design unit 1: gen_mux-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/gen_mux.vhd Line: 13
+    Info (12023): Found entity 1: gen_mux File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/gen_mux.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/generic_register.vhd
+    Info (12022): Found design unit 1: generic_reg-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/generic_register.vhd Line: 13
+    Info (12023): Found entity 1: generic_reg File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/generic_register.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/invg.vhd
+    Info (12022): Found design unit 1: invg-dataflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/invg.vhd Line: 30
+    Info (12023): Found entity 1: invg File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/invg.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/lui_unit.vhd
+    Info (12022): Found design unit 1: lui_Unit-dataflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/lui_Unit.vhd Line: 9
+    Info (12023): Found entity 1: lui_Unit File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/lui_Unit.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/mem.vhd
+    Info (12022): Found design unit 1: mem-rtl File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/mem.vhd Line: 27
+    Info (12023): Found entity 1: mem File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/mem.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/mux4.vhd
+    Info (12022): Found design unit 1: mux4-dataflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/mux4.vhd Line: 11
+    Info (12023): Found entity 1: mux4 File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/mux4.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/mux_32to1.vhd
+    Info (12022): Found design unit 1: mux_32to1-dataflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/mux_32to1.vhd Line: 12
+    Info (12023): Found entity 1: mux_32to1 File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/mux_32to1.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/nmuxstructural.vhd
+    Info (12022): Found design unit 1: nMuxStructural-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/nMuxStructural.vhd Line: 13
+    Info (12023): Found entity 1: nMuxStructural File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/nMuxStructural.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/notorg32.vhd
+    Info (12022): Found design unit 1: notOrg32-dataflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/notOrg32.vhd Line: 11
+    Info (12023): Found entity 1: notOrg32 File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/notOrg32.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/onebitshifter.vhd
+    Info (12022): Found design unit 1: onebitshifter-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/onebitshifter.vhd Line: 13
+    Info (12023): Found entity 1: onebitshifter File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/onebitshifter.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/onescomp.vhd
+    Info (12022): Found design unit 1: onescomp-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/onescomp.vhd Line: 11
+    Info (12023): Found entity 1: onescomp File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/onescomp.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/onescompflow.vhd
+    Info (12022): Found design unit 1: onescompflow-dataflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/onescompflow.vhd Line: 11
+    Info (12023): Found entity 1: onescompflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/onescompflow.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/org2.vhd
+    Info (12022): Found design unit 1: org2-dataflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/org2.vhd Line: 31
+    Info (12023): Found entity 1: org2 File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/org2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/proja_alu.vhd
+    Info (12022): Found design unit 1: projA_alu-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/projA_alu.vhd Line: 16
+    Info (12023): Found entity 1: projA_alu File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/projA_alu.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/proja_proc.vhd
+    Info (12022): Found design unit 1: projA_proc-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/projA_proc.vhd Line: 27
+    Info (12023): Found entity 1: projA_proc File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/projA_proc.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/reg_file.vhd
+    Info (12022): Found design unit 1: reg_file-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/reg_file.vhd Line: 20
+    Info (12023): Found entity 1: reg_file File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/reg_file.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/sign_extender.vhd
+    Info (12022): Found design unit 1: sign_extender-dataflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/sign_extender.vhd Line: 11
+    Info (12023): Found entity 1: sign_extender File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/sign_extender.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/singlealu.vhd
+    Info (12022): Found design unit 1: singleALU-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/singleALU.vhd Line: 15
+    Info (12023): Found entity 1: singleALU File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/singleALU.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/single_reg.vhd
+    Info (12022): Found design unit 1: single_reg-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/single_reg.vhd Line: 12
+    Info (12023): Found entity 1: single_reg File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/single_reg.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/sixteenbitshifter.vhd
+    Info (12022): Found design unit 1: sixteenbitshifter-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/sixteenbitshifter.vhd Line: 13
+    Info (12023): Found entity 1: sixteenbitshifter File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/sixteenbitshifter.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/specialalu.vhd
+    Info (12022): Found design unit 1: specialALU-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/specialALU.vhd Line: 17
+    Info (12023): Found entity 1: specialALU File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/specialALU.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/tb_control_unit.vhd
+    Info (12022): Found design unit 1: tb_controlunit-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/tb_Control_Unit.vhd Line: 8
+    Info (12023): Found entity 1: tb_controlunit File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/tb_Control_Unit.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/tb_pipeline_regs.vhd
+    Info (12022): Found design unit 1: tb_pipeline_regs-behavior File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/tb_pipeline_regs.vhd Line: 8
+    Info (12023): Found entity 1: tb_pipeline_regs File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/tb_pipeline_regs.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/twobitshifter.vhd
+    Info (12022): Found design unit 1: twobitshifter-structure File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/twobitshifter.vhd Line: 13
+    Info (12023): Found entity 1: twobitshifter File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/twobitshifter.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /cpre381/proj_c/cpre381-toolflow-release/modelsimwork/src/xorg2.vhd
+    Info (12022): Found design unit 1: xorg2-dataflow File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/xorg2.vhd Line: 31
+    Info (12023): Found entity 1: xorg2 File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/xorg2.vhd Line: 23
+Info (12127): Elaborating entity "MIPS_Processor" for the top level hierarchy
+Warning (10541): VHDL Signal Declaration warning at MIPS_Processor.vhd(35): used implicit default value for signal "s_DMemWr" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 35
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(38): object "s_DMemOut" assigned a value but never read File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 38
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(52): object "s_Halt" assigned a value but never read File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 52
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(68): object "Carry" assigned a value but never read File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 68
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(68): object "dummyCarry" assigned a value but never read File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 68
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(68): object "Overflow" assigned a value but never read File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 68
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(68): object "dummyOF" assigned a value but never read File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 68
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(68): object "dummyZero" assigned a value but never read File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 68
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(75): object "s_o_DMemWr_EXMEM" assigned a value but never read File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 75
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(77): object "s_o_rtorrd_MEMWB" assigned a value but never read File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 77
+Warning (10541): VHDL Signal Declaration warning at MIPS_Processor.vhd(80): used implicit default value for signal "s_i_DMemOut_MEMWB" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 80
+Warning (10631): VHDL Process Statement warning at MIPS_Processor.vhd(577): inferring latch(es) for signal or variable "Zero", which holds its previous value in one or more paths through the process File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 577
+Info (10041): Inferred latch for "Zero" at MIPS_Processor.vhd(577) File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 577
+Info (12128): Elaborating entity "mem" for hierarchy "mem:IMem" File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 268
+Info (12128): Elaborating entity "control_Unit" for hierarchy "control_Unit:ControlLogic" File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 300
+Info (12128): Elaborating entity "single_reg" for hierarchy "single_reg:ProgramCounter" File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 333
+Error (12004): Port "i_CLK" does not exist in primitive "dff" of instance "\G1:0:reg_i" File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/single_reg.vhd Line: 25
+Error (12004): Port "i_RST" does not exist in primitive "dff" of instance "\G1:0:reg_i" File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/single_reg.vhd Line: 25
+Error (12004): Port "i_WE" does not exist in primitive "dff" of instance "\G1:0:reg_i" File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/single_reg.vhd Line: 25
+Error (12004): Port "i_D" does not exist in primitive "dff" of instance "\G1:0:reg_i" File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/single_reg.vhd Line: 25
+Error (12004): Port "o_Q" does not exist in primitive "dff" of instance "\G1:0:reg_i" File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/single_reg.vhd Line: 25
+Error (12152): Can't elaborate user hierarchy "single_reg:ProgramCounter" File: U:/cpre381/proj_C/cpre381-toolflow-release/ModelSimWork/src/MIPS_Processor.vhd Line: 333
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 6 errors, 14 warnings
+    Error: Peak virtual memory: 4794 megabytes
+    Error: Processing ended: Tue Nov 24 17:42:51 2020
+    Error: Elapsed time: 00:00:16
+    Error: Total CPU time (on all processors): 00:00:02
+
+

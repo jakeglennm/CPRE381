@@ -1,0 +1,52 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+use work.vector_type.all;
+
+entity mux_32to1 is
+  port(i_Sel	: in std_logic_vector(4 downto 0);
+       i_In	: in reg_inputs;
+       o_F	: out std_logic_vector(31 downto 0));
+end mux_32to1;
+
+architecture dataflow of mux_32to1 is 
+  signal F_out : std_logic_vector(31 downto 0);
+begin
+  with i_Sel select
+    F_out <= iIn(0) when "00000",
+             iIn(1) when "00001",
+             iIn(2) when "00010",
+             iIn(3) when "00011",
+             iIn(4) when "00100",
+             iIn(5) when "00101",
+             iIn(6) when "00110",
+             iIn(7) when "00111",
+             iIn(8) when "01000",
+             iIn(9) when "01001",
+             iIn(10) when "01010",
+             iIn(11) when "01011",
+             iIn(12) when "01100",
+             iIn(13) when "01101",
+             iIn(14) when "01110",
+             iIn(15) when "01111",
+             iIn(16) when "10000",
+             iIn(17) when "10001",
+             iIn(18) when "10010",
+             iIn(19) when "10011",
+             iIn(20) when "10100",
+             iIn(21) when "10101",
+             iIn(22) when "10110",
+             iIn(23) when "10111",
+             iIn(24) when "11000",
+             iIn(25) when "11001",
+             iIn(26) when "11010",
+             iIn(27) when "11011",
+             iIn(28) when "11100",
+             iIn(29) when "11101",
+             iIn(30) when "11110",
+             iIn(31) when "11111",
+             iIn(0) when others;
+	
+	o_F <= F_out;
+
+end dataflow;

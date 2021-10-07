@@ -1,0 +1,204 @@
+m255
+K4
+z2
+!s11e vcom 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/cpre381/Lab-01
+T_opt
+!s110 1597864301
+VUn6RA`eTznb0hNY59<TZS3
+04 8 9 work einstein structure 1
+=1-0050569b37c8-5f3d796c-195-1d70
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;2020.2;71
+R0
+T_opt1
+!s110 1597860586
+V6U4T6jkAKKS_Za4gdSf212
+04 9 9 work quadratic structure 1
+=1-0050569b37c8-5f3d6ae9-d9-1f50
+Z3 o-quiet -auto_acc_if_foreign -work work
+R1
+n@_opt1
+R2
+R0
+T_opt2
+!s110 1598369522
+V05f2ANONVcoOHd3n`IUGN2
+04 5 8 work adder behavior 1
+=1-0050569b353f-5f452ef0-58-1cb4
+R3
+R1
+n@_opt2
+R2
+Eadder
+Z4 w1471485738
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 17
+R0
+Z7 8U:/cpre381/Lab-01/Lab-01/Adder.vhd
+Z8 FU:/cpre381/Lab-01/Lab-01/Adder.vhd
+l0
+Z9 L26 1
+Vie]<j?[Y^l8Q3D=EIIC_:0
+!s100 ?M@C[n:@^fhmgGDG`5ibH3
+Z10 OL;C;2020.2;71
+32
+Z11 !s110 1597864278
+!i10b 1
+Z12 !s108 1597864278.000000
+Z13 !s90 -reportprogress|300|-work|work|U:/cpre381/Lab-01/Lab-01/Adder.vhd|
+Z14 !s107 U:/cpre381/Lab-01/Lab-01/Adder.vhd|
+!i113 0
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Abehavior
+R5
+R6
+DEx4 work 5 adder 0 22 ie]<j?[Y^l8Q3D=EIIC_:0
+!i122 17
+l36
+Z17 L35 11
+V;1<0UOS7@[zPo1R`OK7WI2
+!s100 cB67aGlEFcN>h>lDnF1Sh3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eeinstein
+Z18 w1597864234
+R5
+R6
+!i122 19
+R0
+Z19 8U:/cpre381/Lab-01/Lab-01/Einstein.vhd
+Z20 FU:/cpre381/Lab-01/Lab-01/Einstein.vhd
+l0
+L5 1
+VoX`:H4Lg[=CR^4]BgQ3<]1
+!s100 keVPWNGTNOCMO3F:=EQ5T0
+R10
+32
+Z21 !s110 1597864285
+!i10b 1
+Z22 !s108 1597864285.000000
+Z23 !s90 -reportprogress|300|-work|work|U:/cpre381/Lab-01/Lab-01/Einstein.vhd|
+Z24 !s107 U:/cpre381/Lab-01/Lab-01/Einstein.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 8 einstein 0 22 oX`:H4Lg[=CR^4]BgQ3<]1
+!i122 19
+l38
+L13 44
+V3ehSiLgo:mQfDhkTbLRKH0
+!s100 zQQRg7Cj_`T;iDh0PfQAH0
+R10
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R15
+R16
+Emultiplier
+Z25 w1471485762
+R5
+R6
+!i122 18
+R0
+Z26 8U:/cpre381/Lab-01/Lab-01/Multiplier.vhd
+Z27 FU:/cpre381/Lab-01/Lab-01/Multiplier.vhd
+l0
+R9
+VM`5nlXMRj=RJ<2[SQ[4j43
+!s100 _?e0QXZc1];i5lJhWOb7@0
+R10
+32
+Z28 !s110 1597864282
+!i10b 1
+Z29 !s108 1597864282.000000
+Z30 !s90 -reportprogress|300|-work|work|U:/cpre381/Lab-01/Lab-01/Multiplier.vhd|
+Z31 !s107 U:/cpre381/Lab-01/Lab-01/Multiplier.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+DEx4 work 10 multiplier 0 22 M`5nlXMRj=RJ<2[SQ[4j43
+!i122 18
+l36
+R17
+VYAE?iTK0DiXzNzCCP:jzB2
+!s100 Q4UZP;mn^zJ6k_M>:>EDR3
+R10
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R15
+R16
+Equadratic
+Z32 w1597860254
+R5
+R6
+!i122 15
+R0
+Z33 8U:/cpre381/Lab-01/Lab-01/Quadratic.vhd
+Z34 FU:/cpre381/Lab-01/Lab-01/Quadratic.vhd
+l0
+L22 1
+V7D@bY:U8BN3JQzm?ZegGG3
+!s100 Z]nj7L2VB^JTa62JD81Z:3
+R10
+32
+Z35 !s110 1597863025
+!i10b 1
+Z36 !s108 1597863025.000000
+Z37 !s90 -reportprogress|300|-work|work|U:/cpre381/Lab-01/Lab-01/Quadratic.vhd|
+Z38 !s107 U:/cpre381/Lab-01/Lab-01/Quadratic.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 9 quadratic 0 22 7D@bY:U8BN3JQzm?ZegGG3
+!i122 15
+l60
+L30 73
+VoM]8RKaQb_8?KKBNZknWe2
+!s100 D<JEXY0zZeob:0@[DQo5`1
+R10
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 0
+R15
+R16

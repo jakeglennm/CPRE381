@@ -1,0 +1,24 @@
+
+Exception caught at 2020-11-03 15:16:20.726363:
+Traceback (most recent call last):
+  File "test_framework.py", line 185, in <module>
+    main()
+  File "test_framework.py", line 66, in main
+    compare_dumps(options)
+  File "test_framework.py", line 174, in compare_dumps
+    dump_compare.compare(student_dump,mars_dump,max_mismatches=mismatches)
+  File "U:\cpre381\cpre381-toolflow-release\cpre381-toolflow-release\scripts\dump_compare.py", line 198, in compare
+    if not (mars_secondline_search.group('val') == student_secondline_search.group('val') and mars_secondline_search.group('addr') == student_secondline_search.group('addr')):
+AttributeError: 'NoneType' object has no attribute 'group'
+
+Exception caught at 2020-11-03 16:41:22.299898:
+Traceback (most recent call last):
+  File "test_framework.py", line 185, in <module>
+    main()
+  File "test_framework.py", line 66, in main
+    compare_dumps(options)
+  File "test_framework.py", line 174, in compare_dumps
+    dump_compare.compare(student_dump,mars_dump,max_mismatches=mismatches)
+  File "U:\cpre381\cpre381-toolflow-release\cpre381-toolflow-release\scripts\dump_compare.py", line 198, in compare
+    if not (mars_secondline_search.group('val') == student_secondline_search.group('val') and mars_secondline_search.group('addr') == student_secondline_search.group('addr')):
+AttributeError: 'NoneType' object has no attribute 'group'

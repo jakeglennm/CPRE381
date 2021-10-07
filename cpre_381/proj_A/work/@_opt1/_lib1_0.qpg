@@ -1,0 +1,1149 @@
+m255
+K4
+z2
+!s11e vcom 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/cpre381/proj_A
+T_opt
+!s110 1601239379
+VKZl>?6NMM]=J:;jXc2GPc1
+04 12 9 work tb_8bitshift structure 1
+=1-0050569b13cc-5f70f952-313-2240
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.2;71
+R0
+T_opt1
+!s110 1601243662
+V257aEQo2Ca0:acRUF4GOZ0
+04 13 9 work tb_16bitshift structure 1
+=1-0050569b0ad1-5f710a0c-3c8-252c
+R1
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1601238735
+Veog?6H?^C?NSOkFYzgkh_3
+04 12 9 work tb_4bitshift structure 1
+=1-0050569b13cc-5f70f6ce-298-1844
+R1
+R2
+n@_opt2
+R3
+R0
+Eandg2
+Z4 w1598368554
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 47
+R0
+Z7 8U:/cpre381/proj_A/andg2.vhd
+Z8 FU:/cpre381/proj_A/andg2.vhd
+l0
+Z9 L23 1
+VQ@<<<@nlJ=eiIl4BJDFzW2
+!s100 YT?bGzEmcFo:DlnoC^B4_0
+Z10 OL;C;2020.2;71
+32
+Z11 !s110 1601242976
+!i10b 1
+Z12 !s108 1601242975.000000
+Z13 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/andg2.vhd|
+Z14 !s107 U:/cpre381/proj_A/andg2.vhd|
+!i113 0
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Adataflow
+R5
+R6
+DEx4 work 5 andg2 0 22 Q@<<<@nlJ=eiIl4BJDFzW2
+!i122 47
+l32
+Z17 L31 6
+VJVOzCk?IH:iJ5bCRU`CK13
+!s100 I`@Z@UBObS]<7m8bPgKUS1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eeightbitshifter
+Z18 w1601239107
+R5
+R6
+!i122 48
+R0
+Z19 8U:/cpre381/proj_A/eightbitshifter.vhd
+Z20 FU:/cpre381/proj_A/eightbitshifter.vhd
+l0
+L4 1
+VW8ZhkOKMohTFLio@<KEDG1
+!s100 :Fned1E?1fD8^IS8IVoSD2
+R10
+32
+Z21 !s110 1601242978
+!i10b 1
+Z22 !s108 1601242978.000000
+Z23 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/eightbitshifter.vhd|
+Z24 !s107 U:/cpre381/proj_A/eightbitshifter.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 15 eightbitshifter 0 22 W8ZhkOKMohTFLio@<KEDG1
+!i122 48
+l26
+Z25 L13 63
+V0FgIMj;=H=_3bOZGiC<8E0
+!s100 5cEmVBYbkSOWhOFOMXkz02
+R10
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R15
+R16
+Efourbitshifter
+Z26 w1601238407
+R5
+R6
+!i122 49
+R0
+Z27 8U:/cpre381/proj_A/fourbitshifter.vhd
+Z28 FU:/cpre381/proj_A/fourbitshifter.vhd
+l0
+L4 1
+VGaPF__9UCEidhK<cbcK^@1
+!s100 l^R^RcjENYcJMU2^EDfhE0
+R10
+32
+Z29 !s110 1601242981
+!i10b 1
+Z30 !s108 1601242980.000000
+Z31 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/fourbitshifter.vhd|
+Z32 !s107 U:/cpre381/proj_A/fourbitshifter.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 14 fourbitshifter 0 22 GaPF__9UCEidhK<cbcK^@1
+!i122 49
+l26
+L13 67
+VaYXfNbzmBe;NhhgOYNXbE1
+!s100 H>OhUOMOJT?Kd@MREiHXc3
+R10
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R15
+R16
+Egen_mux
+Z33 w1600886270
+R5
+R6
+!i122 50
+R0
+Z34 8U:/cpre381/proj_A/gen_mux.vhd
+Z35 FU:/cpre381/proj_A/gen_mux.vhd
+l0
+L4 1
+V[UNz?9F6M;3akFQ[I@9IE0
+!s100 YASRS1RIVXKNTIC>?Dm_<1
+R10
+32
+Z36 !s110 1601242983
+!i10b 1
+Z37 !s108 1601242983.000000
+Z38 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/gen_mux.vhd|
+Z39 !s107 U:/cpre381/proj_A/gen_mux.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 7 gen_mux 0 22 [UNz?9F6M;3akFQ[I@9IE0
+!i122 50
+l21
+L12 22
+Vb7PNKC0_FH<MLPT3;I9Re1
+!s100 lUF81X9]Rk0BRe4D?O3jB0
+R10
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R15
+R16
+Einvg
+R4
+R5
+R6
+!i122 51
+R0
+Z40 8U:/cpre381/proj_A/invg.vhd
+Z41 FU:/cpre381/proj_A/invg.vhd
+l0
+R9
+VQ?6hb9ePk@>kZZ9k]hNSO3
+!s100 _XK?_^5z0Rm1<k12?;5R?2
+R10
+32
+Z42 !s110 1601242986
+!i10b 1
+Z43 !s108 1601242986.000000
+Z44 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/invg.vhd|
+Z45 !s107 U:/cpre381/proj_A/invg.vhd|
+!i113 0
+R15
+R16
+Adataflow
+R5
+R6
+DEx4 work 4 invg 0 22 Q?6hb9ePk@>kZZ9k]hNSO3
+!i122 51
+l31
+L30 6
+Vch>li:oKYZkCO5]GamViK1
+!s100 bk7I76o8e1LURdoZEQb8H0
+R10
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 0
+R15
+R16
+Eonebitshifter
+Z46 w1601235937
+R5
+R6
+!i122 52
+R0
+Z47 8U:/cpre381/proj_A/onebitshifter.vhd
+Z48 FU:/cpre381/proj_A/onebitshifter.vhd
+l0
+L4 1
+V9HHRR^OI]BM?zI70TFIcM0
+!s100 8Nl26FSQMX?YDKd2]i2Eo3
+R10
+32
+Z49 !s110 1601242990
+!i10b 1
+Z50 !s108 1601242989.000000
+Z51 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/onebitshifter.vhd|
+Z52 !s107 U:/cpre381/proj_A/onebitshifter.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 13 onebitshifter 0 22 9HHRR^OI]BM?zI70TFIcM0
+!i122 52
+l26
+L13 55
+VHAO74_?EQ2VTd`@V8kko`0
+!s100 j8?i2;XfI^zzNWiYjMOn;3
+R10
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 0
+R15
+R16
+Eonescomp
+Z53 w1598469191
+R5
+R6
+!i122 53
+R0
+Z54 8U:/cpre381/proj_A/onescomp.vhd
+Z55 FU:/cpre381/proj_A/onescomp.vhd
+l0
+L4 1
+VKnhZHS^WFO]X_Ko7g6S7Z1
+!s100 MCAj4GmELoC:96mlfY9131
+R10
+32
+Z56 !s110 1601242992
+!i10b 1
+Z57 !s108 1601242992.000000
+Z58 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/onescomp.vhd|
+Z59 !s107 U:/cpre381/proj_A/onescomp.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 8 onescomp 0 22 KnhZHS^WFO]X_Ko7g6S7Z1
+!i122 53
+l18
+L11 15
+V_NR9g5O:D<==EbXGJ`T:b0
+!s100 9DhRCJz<@_;E5>:]FW:@b2
+R10
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 0
+R15
+R16
+Eonescompflow
+Z60 w1598469886
+R5
+R6
+!i122 54
+R0
+Z61 8U:/cpre381/proj_A/onescompflow.vhd
+Z62 FU:/cpre381/proj_A/onescompflow.vhd
+l0
+L4 1
+VD:AVJI6`44m1d7ZkQz9AV0
+!s100 1PmM_4^h[8WE;QC9VLV`31
+R10
+32
+Z63 !s110 1601242995
+!i10b 1
+Z64 !s108 1601242995.000000
+Z65 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/onescompflow.vhd|
+Z66 !s107 U:/cpre381/proj_A/onescompflow.vhd|
+!i113 0
+R15
+R16
+Adataflow
+R5
+R6
+DEx4 work 12 onescompflow 0 22 D:AVJI6`44m1d7ZkQz9AV0
+!i122 54
+l13
+L11 9
+V>oJZETa1Rgc<]NlCm]`aO3
+!s100 BPFK:6Ic4fE_0fA1;nJX]2
+R10
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 0
+R15
+R16
+Eorg2
+R4
+R5
+R6
+!i122 55
+R0
+Z67 8U:/cpre381/proj_A/org2.vhd
+Z68 FU:/cpre381/proj_A/org2.vhd
+l0
+R9
+V[C`FCj=kL0CTBYLlbjJzD3
+!s100 bGQ1F9eW^Q17OoL9h4g7z2
+R10
+32
+Z69 !s110 1601242998
+!i10b 1
+Z70 !s108 1601242997.000000
+Z71 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/org2.vhd|
+Z72 !s107 U:/cpre381/proj_A/org2.vhd|
+!i113 0
+R15
+R16
+Adataflow
+R5
+R6
+DEx4 work 4 org2 0 22 [C`FCj=kL0CTBYLlbjJzD3
+!i122 55
+l32
+R17
+VNHGn>Kh:]BEh4o]ImiG<d3
+!s100 h5_AzR3TdRA0a_K=dQ>mI2
+R10
+32
+R69
+!i10b 1
+R70
+R71
+R72
+!i113 0
+R15
+R16
+Esixteenbitshifter
+Z73 w1601243224
+R5
+R6
+!i122 64
+R0
+Z74 8U:/cpre381/proj_A/sixteenbitshifter.vhd
+Z75 FU:/cpre381/proj_A/sixteenbitshifter.vhd
+l0
+L4 1
+V[6>WPEQcj>[Q3^ZAc5f_?3
+!s100 5gC]cGfbHmhEQgiCeTH^C0
+R10
+32
+Z76 !s110 1601243259
+!i10b 1
+Z77 !s108 1601243259.000000
+Z78 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/sixteenbitshifter.vhd|
+Z79 !s107 U:/cpre381/proj_A/sixteenbitshifter.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 17 sixteenbitshifter 0 22 [6>WPEQcj>[Q3^ZAc5f_?3
+!i122 64
+l26
+R25
+VMFJI3Am]KfeJCi0lM0CPh0
+!s100 k>1YV:]mFl=V>NXW=J3bz2
+R10
+32
+R76
+!i10b 1
+R77
+R78
+R79
+!i113 0
+R15
+R16
+Etb_16bitshift
+Z80 w1601243625
+R5
+R6
+!i122 68
+R0
+Z81 8U:/cpre381/proj_A/tb_16bitshift.vhd
+Z82 FU:/cpre381/proj_A/tb_16bitshift.vhd
+l0
+L4 1
+VYKWW@K<FmQkm;eCJjR7=c1
+!s100 ?Z@SG_jDnfiKR8Uhg6Q;l2
+R10
+32
+Z83 !s110 1601243652
+!i10b 1
+Z84 !s108 1601243651.000000
+Z85 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/tb_16bitshift.vhd|
+Z86 !s107 U:/cpre381/proj_A/tb_16bitshift.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 13 tb_16bitshift 0 22 YKWW@K<FmQkm;eCJjR7=c1
+!i122 68
+l21
+Z87 L8 61
+V^Kk7YcfMb=oZJ5[JIJQz:3
+!s100 =`lSlULjZYhgVMn_OezN]2
+R10
+32
+R83
+!i10b 1
+R84
+R85
+R86
+!i113 0
+R15
+R16
+Etb_1bitshift
+Z88 w1601235345
+R5
+R6
+!i122 56
+R0
+Z89 8U:/cpre381/proj_A/tb_1bitshift.vhd
+Z90 FU:/cpre381/proj_A/tb_1bitshift.vhd
+l0
+L4 1
+V8gMHoDLK8bT8N7RdYgjGF3
+!s100 DBS34D<gPVQHeonCi0LbE0
+R10
+32
+Z91 !s110 1601243001
+!i10b 1
+Z92 !s108 1601243001.000000
+Z93 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/tb_1bitshift.vhd|
+Z94 !s107 U:/cpre381/proj_A/tb_1bitshift.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 12 tb_1bitshift 0 22 8gMHoDLK8bT8N7RdYgjGF3
+!i122 56
+l21
+R87
+VekmPjcfnzBDMSYOlaR3GY2
+!s100 <ZQaZSFi@j:gKKQ0LUmVP2
+R10
+32
+R91
+!i10b 1
+R92
+R93
+R94
+!i113 0
+R15
+R16
+Etb_2bitshift
+Z95 w1601237393
+R5
+R6
+!i122 57
+R0
+Z96 8U:/cpre381/proj_A/tb_2bitshift.vhd
+Z97 FU:/cpre381/proj_A/tb_2bitshift.vhd
+l0
+L4 1
+V`kmj0VMSjO_ZG<W>@Q:aB1
+!s100 WAIEn9@^M=[;@<ZJ3=d]O1
+R10
+32
+Z98 !s110 1601243006
+!i10b 1
+Z99 !s108 1601243005.000000
+Z100 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/tb_2bitshift.vhd|
+Z101 !s107 U:/cpre381/proj_A/tb_2bitshift.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 12 tb_2bitshift 0 22 `kmj0VMSjO_ZG<W>@Q:aB1
+!i122 57
+l21
+R87
+Vd@JQBbB>c0LILF?zg0nFn1
+!s100 nEdjz8R03]l_PQmX]2cKk0
+R10
+32
+R98
+!i10b 1
+R99
+R100
+R101
+!i113 0
+R15
+R16
+Etb_4bitshift
+Z                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                m255
+K4
+z2
+!s11e vcom 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/cpre381/proj_A
+T_opt
+!s110 1601239379
+VKZl>?6NMM]=J:;jXc2GPc1
+04 12 9 work tb_8bitshift structure 1
+=1-0050569b13cc-5f70f952-313-2240
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.2;71
+R0
+T_opt1
+!s110 1601243558
+VGdRfLz<Ajj2:<3O4T6XA12
+04 13 9 work tb_16bitshift structure 1
+=1-0050569b0ad1-5f7109a4-311-27e0
+R1
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1601238735
+Veog?6H?^C?NSOkFYzgkh_3
+04 12 9 work tb_4bitshift structure 1
+=1-0050569b13cc-5f70f6ce-298-1844
+R1
+R2
+n@_opt2
+R3
+R0
+Eandg2
+Z4 w1598368554
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 47
+R0
+Z7 8U:/cpre381/proj_A/andg2.vhd
+Z8 FU:/cpre381/proj_A/andg2.vhd
+l0
+Z9 L23 1
+VQ@<<<@nlJ=eiIl4BJDFzW2
+!s100 YT?bGzEmcFo:DlnoC^B4_0
+Z10 OL;C;2020.2;71
+32
+Z11 !s110 1601242976
+!i10b 1
+Z12 !s108 1601242975.000000
+Z13 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/andg2.vhd|
+Z14 !s107 U:/cpre381/proj_A/andg2.vhd|
+!i113 0
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Adataflow
+R5
+R6
+DEx4 work 5 andg2 0 22 Q@<<<@nlJ=eiIl4BJDFzW2
+!i122 47
+l32
+Z17 L31 6
+VJVOzCk?IH:iJ5bCRU`CK13
+!s100 I`@Z@UBObS]<7m8bPgKUS1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eeightbitshifter
+Z18 w1601239107
+R5
+R6
+!i122 48
+R0
+Z19 8U:/cpre381/proj_A/eightbitshifter.vhd
+Z20 FU:/cpre381/proj_A/eightbitshifter.vhd
+l0
+L4 1
+VW8ZhkOKMohTFLio@<KEDG1
+!s100 :Fned1E?1fD8^IS8IVoSD2
+R10
+32
+Z21 !s110 1601242978
+!i10b 1
+Z22 !s108 1601242978.000000
+Z23 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/eightbitshifter.vhd|
+Z24 !s107 U:/cpre381/proj_A/eightbitshifter.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 15 eightbitshifter 0 22 W8ZhkOKMohTFLio@<KEDG1
+!i122 48
+l26
+Z25 L13 63
+V0FgIMj;=H=_3bOZGiC<8E0
+!s100 5cEmVBYbkSOWhOFOMXkz02
+R10
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R15
+R16
+Efourbitshifter
+Z26 w1601238407
+R5
+R6
+!i122 49
+R0
+Z27 8U:/cpre381/proj_A/fourbitshifter.vhd
+Z28 FU:/cpre381/proj_A/fourbitshifter.vhd
+l0
+L4 1
+VGaPF__9UCEidhK<cbcK^@1
+!s100 l^R^RcjENYcJMU2^EDfhE0
+R10
+32
+Z29 !s110 1601242981
+!i10b 1
+Z30 !s108 1601242980.000000
+Z31 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/fourbitshifter.vhd|
+Z32 !s107 U:/cpre381/proj_A/fourbitshifter.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 14 fourbitshifter 0 22 GaPF__9UCEidhK<cbcK^@1
+!i122 49
+l26
+L13 67
+VaYXfNbzmBe;NhhgOYNXbE1
+!s100 H>OhUOMOJT?Kd@MREiHXc3
+R10
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R15
+R16
+Egen_mux
+Z33 w1600886270
+R5
+R6
+!i122 50
+R0
+Z34 8U:/cpre381/proj_A/gen_mux.vhd
+Z35 FU:/cpre381/proj_A/gen_mux.vhd
+l0
+L4 1
+V[UNz?9F6M;3akFQ[I@9IE0
+!s100 YASRS1RIVXKNTIC>?Dm_<1
+R10
+32
+Z36 !s110 1601242983
+!i10b 1
+Z37 !s108 1601242983.000000
+Z38 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/gen_mux.vhd|
+Z39 !s107 U:/cpre381/proj_A/gen_mux.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 7 gen_mux 0 22 [UNz?9F6M;3akFQ[I@9IE0
+!i122 50
+l21
+L12 22
+Vb7PNKC0_FH<MLPT3;I9Re1
+!s100 lUF81X9]Rk0BRe4D?O3jB0
+R10
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R15
+R16
+Einvg
+R4
+R5
+R6
+!i122 51
+R0
+Z40 8U:/cpre381/proj_A/invg.vhd
+Z41 FU:/cpre381/proj_A/invg.vhd
+l0
+R9
+VQ?6hb9ePk@>kZZ9k]hNSO3
+!s100 _XK?_^5z0Rm1<k12?;5R?2
+R10
+32
+Z42 !s110 1601242986
+!i10b 1
+Z43 !s108 1601242986.000000
+Z44 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/invg.vhd|
+Z45 !s107 U:/cpre381/proj_A/invg.vhd|
+!i113 0
+R15
+R16
+Adataflow
+R5
+R6
+DEx4 work 4 invg 0 22 Q?6hb9ePk@>kZZ9k]hNSO3
+!i122 51
+l31
+L30 6
+Vch>li:oKYZkCO5]GamViK1
+!s100 bk7I76o8e1LURdoZEQb8H0
+R10
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 0
+R15
+R16
+Eonebitshifter
+Z46 w1601235937
+R5
+R6
+!i122 52
+R0
+Z47 8U:/cpre381/proj_A/onebitshifter.vhd
+Z48 FU:/cpre381/proj_A/onebitshifter.vhd
+l0
+L4 1
+V9HHRR^OI]BM?zI70TFIcM0
+!s100 8Nl26FSQMX?YDKd2]i2Eo3
+R10
+32
+Z49 !s110 1601242990
+!i10b 1
+Z50 !s108 1601242989.000000
+Z51 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/onebitshifter.vhd|
+Z52 !s107 U:/cpre381/proj_A/onebitshifter.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 13 onebitshifter 0 22 9HHRR^OI]BM?zI70TFIcM0
+!i122 52
+l26
+L13 55
+VHAO74_?EQ2VTd`@V8kko`0
+!s100 j8?i2;XfI^zzNWiYjMOn;3
+R10
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 0
+R15
+R16
+Eonescomp
+Z53 w1598469191
+R5
+R6
+!i122 53
+R0
+Z54 8U:/cpre381/proj_A/onescomp.vhd
+Z55 FU:/cpre381/proj_A/onescomp.vhd
+l0
+L4 1
+VKnhZHS^WFO]X_Ko7g6S7Z1
+!s100 MCAj4GmELoC:96mlfY9131
+R10
+32
+Z56 !s110 1601242992
+!i10b 1
+Z57 !s108 1601242992.000000
+Z58 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/onescomp.vhd|
+Z59 !s107 U:/cpre381/proj_A/onescomp.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 8 onescomp 0 22 KnhZHS^WFO]X_Ko7g6S7Z1
+!i122 53
+l18
+L11 15
+V_NR9g5O:D<==EbXGJ`T:b0
+!s100 9DhRCJz<@_;E5>:]FW:@b2
+R10
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 0
+R15
+R16
+Eonescompflow
+Z60 w1598469886
+R5
+R6
+!i122 54
+R0
+Z61 8U:/cpre381/proj_A/onescompflow.vhd
+Z62 FU:/cpre381/proj_A/onescompflow.vhd
+l0
+L4 1
+VD:AVJI6`44m1d7ZkQz9AV0
+!s100 1PmM_4^h[8WE;QC9VLV`31
+R10
+32
+Z63 !s110 1601242995
+!i10b 1
+Z64 !s108 1601242995.000000
+Z65 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/onescompflow.vhd|
+Z66 !s107 U:/cpre381/proj_A/onescompflow.vhd|
+!i113 0
+R15
+R16
+Adataflow
+R5
+R6
+DEx4 work 12 onescompflow 0 22 D:AVJI6`44m1d7ZkQz9AV0
+!i122 54
+l13
+L11 9
+V>oJZETa1Rgc<]NlCm]`aO3
+!s100 BPFK:6Ic4fE_0fA1;nJX]2
+R10
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 0
+R15
+R16
+Eorg2
+R4
+R5
+R6
+!i122 55
+R0
+Z67 8U:/cpre381/proj_A/org2.vhd
+Z68 FU:/cpre381/proj_A/org2.vhd
+l0
+R9
+V[C`FCj=kL0CTBYLlbjJzD3
+!s100 bGQ1F9eW^Q17OoL9h4g7z2
+R10
+32
+Z69 !s110 1601242998
+!i10b 1
+Z70 !s108 1601242997.000000
+Z71 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/org2.vhd|
+Z72 !s107 U:/cpre381/proj_A/org2.vhd|
+!i113 0
+R15
+R16
+Adataflow
+R5
+R6
+DEx4 work 4 org2 0 22 [C`FCj=kL0CTBYLlbjJzD3
+!i122 55
+l32
+R17
+VNHGn>Kh:]BEh4o]ImiG<d3
+!s100 h5_AzR3TdRA0a_K=dQ>mI2
+R10
+32
+R69
+!i10b 1
+R70
+R71
+R72
+!i113 0
+R15
+R16
+Esixteenbitshifter
+Z73 w1601243224
+R5
+R6
+!i122 64
+R0
+Z74 8U:/cpre381/proj_A/sixteenbitshifter.vhd
+Z75 FU:/cpre381/proj_A/sixteenbitshifter.vhd
+l0
+L4 1
+V[6>WPEQcj>[Q3^ZAc5f_?3
+!s100 5gC]cGfbHmhEQgiCeTH^C0
+R10
+32
+Z76 !s110 1601243259
+!i10b 1
+Z77 !s108 1601243259.000000
+Z78 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/sixteenbitshifter.vhd|
+Z79 !s107 U:/cpre381/proj_A/sixteenbitshifter.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 17 sixteenbitshifter 0 22 [6>WPEQcj>[Q3^ZAc5f_?3
+!i122 64
+l26
+R25
+VMFJI3Am]KfeJCi0lM0CPh0
+!s100 k>1YV:]mFl=V>NXW=J3bz2
+R10
+32
+R76
+!i10b 1
+R77
+R78
+R79
+!i113 0
+R15
+R16
+Etb_16bitshift
+Z80 w1601243526
+R5
+R6
+!i122 67
+R0
+Z81 8U:/cpre381/proj_A/tb_16bitshift.vhd
+Z82 FU:/cpre381/proj_A/tb_16bitshift.vhd
+l0
+L4 1
+VYKWW@K<FmQkm;eCJjR7=c1
+!s100 ?Z@SG_jDnfiKR8Uhg6Q;l2
+R10
+32
+Z83 !s110 1601243552
+!i10b 1
+Z84 !s108 1601243552.000000
+Z85 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/tb_16bitshift.vhd|
+Z86 !s107 U:/cpre381/proj_A/tb_16bitshift.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 13 tb_16bitshift 0 22 YKWW@K<FmQkm;eCJjR7=c1
+!i122 67
+l21
+Z87 L8 61
+V1iDz96:G6ikQ9Ic0foVfO0
+!s100 hFPm9O5ibM>7<TQNL=c1j0
+R10
+32
+R83
+!i10b 1
+R84
+R85
+R86
+!i113 0
+R15
+R16
+Etb_1bitshift
+Z88 w1601235345
+R5
+R6
+!i122 56
+R0
+Z89 8U:/cpre381/proj_A/tb_1bitshift.vhd
+Z90 FU:/cpre381/proj_A/tb_1bitshift.vhd
+l0
+L4 1
+V8gMHoDLK8bT8N7RdYgjGF3
+!s100 DBS34D<gPVQHeonCi0LbE0
+R10
+32
+Z91 !s110 1601243001
+!i10b 1
+Z92 !s108 1601243001.000000
+Z93 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/tb_1bitshift.vhd|
+Z94 !s107 U:/cpre381/proj_A/tb_1bitshift.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 12 tb_1bitshift 0 22 8gMHoDLK8bT8N7RdYgjGF3
+!i122 56
+l21
+R87
+VekmPjcfnzBDMSYOlaR3GY2
+!s100 <ZQaZSFi@j:gKKQ0LUmVP2
+R10
+32
+R91
+!i10b 1
+R92
+R93
+R94
+!i113 0
+R15
+R16
+Etb_2bitshift
+Z95 w1601237393
+R5
+R6
+!i122 57
+R0
+Z96 8U:/cpre381/proj_A/tb_2bitshift.vhd
+Z97 FU:/cpre381/proj_A/tb_2bitshift.vhd
+l0
+L4 1
+V`kmj0VMSjO_ZG<W>@Q:aB1
+!s100 WAIEn9@^M=[;@<ZJ3=d]O1
+R10
+32
+Z98 !s110 1601243006
+!i10b 1
+Z99 !s108 1601243005.000000
+Z100 !s90 -reportprogress|300|-work|work|U:/cpre381/proj_A/tb_2bitshift.vhd|
+Z101 !s107 U:/cpre381/proj_A/tb_2bitshift.vhd|
+!i113 0
+R15
+R16
+Astructure
+R5
+R6
+DEx4 work 12 tb_2bitshift 0 22 `kmj0VMSjO_ZG<W>@Q:aB1
+!i122 57
+l21
+R87
+Vd@JQBbB>c0LILF?zg0nFn1
+!s100 nEdjz8R03]l_PQmX]2cKk0
+R10
+32
+R98
+!i10b 1
+R99
+R100
+R101
+!i113 0
+R15
+R16
+Etb_4bitshift
+Z

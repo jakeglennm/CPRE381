@@ -1,0 +1,298 @@
+m255
+K4
+z2
+!s11e vcom 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/cpre381/Lab-02
+T_opt
+!s110 1598470014
+V^6^l7RBa??Wb<1[cENzJ@3
+04 11 9 work tb_onescomp structure 1
+=1-0050569bfa76-5f46b77d-de-1fdc
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;2020.2;71
+R0
+T_opt1
+!s110 1615148295
+V0adHUZScO_Hfh0M>PMCNY1
+04 8 8 work tb_andg2 behavior 1
+=1-0050569b6926-60453505-25a-2ab0
+o-quiet -auto_acc_if_foreign -work work +acc
+R1
+n@_opt1
+R2
+Egenerate_example
+Z3 w1598368554
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z6 8U:/cpre381/Lab-02/Lab-02/generate_example.vhd
+Z7 FU:/cpre381/Lab-02/Lab-02/generate_example.vhd
+l0
+L22 1
+V2TfO^^TeJZoFR69ga`Rmh1
+!s100 J4zd;1NSDmL[HZG`[CH[60
+Z8 OL;C;2020.2;71
+32
+Z9 !s110 1598461621
+!i10b 1
+Z10 !s108 1598461620.000000
+Z11 !s90 -reportprogress|300|-work|work|U:/cpre381/Lab-02/Lab-02/generate_example.vhd|
+Z12 !s107 U:/cpre381/Lab-02/Lab-02/generate_example.vhd|
+!i113 0
+Z13 o-work work
+Z14 tExplicit 1 CvgOpt 0
+Astructure
+R4
+R5
+DEx4 work 16 generate_example 0 22 2TfO^^TeJZoFR69ga`Rmh1
+!i122 2
+l38
+L30 20
+V;_X6MQ``RdJ>mdLV2<<4_2
+!s100 TfaRR45_]hjVS7hNXIQ[R3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Einvg
+R3
+R4
+R5
+!i122 1
+R0
+Z15 8U:/cpre381/Lab-02/Lab-02/invg.vhd
+Z16 FU:/cpre381/Lab-02/Lab-02/invg.vhd
+l0
+L23 1
+VQ?6hb9ePk@>kZZ9k]hNSO3
+!s100 _XK?_^5z0Rm1<k12?;5R?2
+R8
+32
+Z17 !s110 1598461489
+!i10b 1
+Z18 !s108 1598461489.000000
+Z19 !s90 -reportprogress|300|-work|work|U:/cpre381/Lab-02/Lab-02/invg.vhd|
+Z20 !s107 U:/cpre381/Lab-02/Lab-02/invg.vhd|
+!i113 0
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 4 invg 0 22 Q?6hb9ePk@>kZZ9k]hNSO3
+!i122 1
+l31
+L30 6
+Vch>li:oKYZkCO5]GamViK1
+!s100 bk7I76o8e1LURdoZEQb8H0
+R8
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R13
+R14
+Eonescomp
+Z21 w1598469191
+R4
+R5
+!i122 35
+R0
+Z22 8U:/cpre381/Lab-02/Lab-02/onescomp.vhd
+Z23 FU:/cpre381/Lab-02/Lab-02/onescomp.vhd
+l0
+L4 1
+VKnhZHS^WFO]X_Ko7g6S7Z1
+!s100 MCAj4GmELoC:96mlfY9131
+R8
+32
+Z24 !s110 1598469975
+!i10b 1
+Z25 !s108 1598469975.000000
+Z26 !s90 -reportprogress|300|-work|work|U:/cpre381/Lab-02/Lab-02/onescomp.vhd|U:/cpre381/Lab-02/Lab-02/onescompflow.vhd|
+Z27 !s107 U:/cpre381/Lab-02/Lab-02/onescompflow.vhd|U:/cpre381/Lab-02/Lab-02/onescomp.vhd|
+!i113 0
+R13
+R14
+Astructure
+R4
+R5
+Z28 DEx4 work 8 onescomp 0 22 KnhZHS^WFO]X_Ko7g6S7Z1
+!i122 35
+l18
+L11 15
+V_NR9g5O:D<==EbXGJ`T:b0
+!s100 9DhRCJz<@_;E5>:]FW:@b2
+R8
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R13
+R14
+Adataflow
+w1598469382
+R4
+R5
+R28
+!i122 28
+Z29 8U:/cpre381/Lab-02/Lab-02/onescompflow.vhd
+Z30 FU:/cpre381/Lab-02/Lab-02/onescompflow.vhd
+l13
+L11 7
+V:JFl23^KlUFY7`4@X@I4K1
+!s100 75R>79_OUKG]lK=k?Q?DG3
+R8
+32
+!s110 1598469399
+!i10b 1
+!s108 1598469399.000000
+Z31 !s90 -reportprogress|300|-work|work|U:/cpre381/Lab-02/Lab-02/onescompflow.vhd|
+Z32 !s107 U:/cpre381/Lab-02/Lab-02/onescompflow.vhd|
+!i113 0
+R13
+R14
+Eonescompflow
+Z33 w1598469886
+R4
+R5
+!i122 36
+R0
+R29
+R30
+l0
+L4 1
+VD:AVJI6`44m1d7ZkQz9AV0
+!s100 1PmM_4^h[8WE;QC9VLV`31
+R8
+32
+Z34 !s110 1598469980
+!i10b 1
+Z35 !s108 1598469979.000000
+R31
+R32
+!i113 0
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 12 onescompflow 0 22 D:AVJI6`44m1d7ZkQz9AV0
+!i122 36
+l13
+L11 9
+V>oJZETa1Rgc<]NlCm]`aO3
+!s100 BPFK:6Ic4fE_0fA1;nJX]2
+R8
+32
+R34
+!i10b 1
+R35
+R31
+R32
+!i113 0
+R13
+R14
+Etb_andg2
+R3
+R4
+R5
+!i122 38
+R0
+Z36 8U:/cpre381/Lab-02/Lab-02/tb_andg2.vhd
+Z37 FU:/cpre381/Lab-02/Lab-02/tb_andg2.vhd
+l0
+L24 1
+V=A?1Z;2oTj?5`WX0n^BN=2
+!s100 hL<QQ`f@3^J_;d2F]LdXA1
+R8
+32
+Z38 !s110 1615148264
+!i10b 1
+Z39 !s108 1615148263.000000
+Z40 !s90 -reportprogress|300|-work|work|U:/cpre381/Lab-02/Lab-02/tb_andg2.vhd|
+Z41 !s107 U:/cpre381/Lab-02/Lab-02/tb_andg2.vhd|
+!i113 0
+R13
+R14
+Abehavior
+R4
+R5
+DEx4 work 8 tb_andg2 0 22 =A?1Z;2oTj?5`WX0n^BN=2
+!i122 38
+l40
+L28 45
+Vh<Pk7S3[obTYJgi[FLJlf0
+!s100 hHH:LJ:<U[_TUiHU2j:9g1
+R8
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 0
+R13
+R14
+Etb_onescomp
+Z42 w1598469880
+R4
+R5
+!i122 37
+R0
+Z43 8U:/cpre381/Lab-02/Lab-02/tp_onescomp.vhd
+Z44 FU:/cpre381/Lab-02/Lab-02/tp_onescomp.vhd
+l0
+L4 1
+VXcEVODX8U><EhIa1^cj1V0
+!s100 cAdclM`UWKzmZL1=aGokd3
+R8
+32
+Z45 !s110 1598469985
+!i10b 1
+Z46 !s108 1598469985.000000
+Z47 !s90 -reportprogress|300|-work|work|U:/cpre381/Lab-02/Lab-02/tp_onescomp.vhd|
+Z48 !s107 U:/cpre381/Lab-02/Lab-02/tp_onescomp.vhd|
+!i113 0
+R13
+R14
+Astructure
+R4
+R5
+DEx4 work 11 tb_onescomp 0 22 XcEVODX8U><EhIa1^cj1V0
+!i122 37
+l24
+L8 42
+VA@i=Ii31o80zAmZzXg@f21
+!s100 7Szg0SaT=UQ3madDCFOOa0
+R8
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 0
+R13
+R14

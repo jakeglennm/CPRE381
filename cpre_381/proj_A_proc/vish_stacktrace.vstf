@@ -1,0 +1,52 @@
+# Current time Tue Oct 06 13:09:45 2020
+# ModelSim SE Stack Trace
+# Program = vish
+# Id = "2020.2"
+# Version = "2020.04"
+# Date = "Apr 19 2020"
+# Platform = win64
+
+Exception c0000005 has occurred at address 400d3b0c. Traceback:
+# 0    0x400d3b0c: '<unknown (@0x400d3b0c)>'
+# 1    0x404400e2: 'Ucdb_Init + 0xc5602'
+# 2    0x4044106e: 'Ucdb_Init + 0xc658e'
+# 3    0x4043e7ee: 'Ucdb_Init + 0xc3d0e'
+# 4    0x4043c0a0: 'Ucdb_Init + 0xc15c0'
+# 5    0x4030774f: 'Mtirpc_Init + 0x179e4f'
+# 6    0x40137a95: '<unknown (@0x40137a95)>'
+# 7    0x66635226: 'TclInvokeStringCommand + 0xc6'
+# 8    0x66637103: 'TclNRRunCallbacks + 0x63'
+# 9    0x06600d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 10   0x066020e0: 'Itcl_ExecProc + 0x120'
+# 11   0x66637103: 'TclNRRunCallbacks + 0x63'
+# 12   0x06600d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 13   0x066020e0: 'Itcl_ExecProc + 0x120'
+# 14   0x66637103: 'TclNRRunCallbacks + 0x63'
+# 15   0x06600d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 16   0x06601f5b: 'Itcl_ExecMethod + 0x23b'
+# 17   0x66637103: 'TclNRRunCallbacks + 0x63'
+# 18   0x06600d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 19   0x06601f5b: 'Itcl_ExecMethod + 0x23b'
+# 20   0x66637103: 'TclNRRunCallbacks + 0x63'
+# 21   0x06600d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 22   0x06601f5b: 'Itcl_ExecMethod + 0x23b'
+# 23   0x66637103: 'TclNRRunCallbacks + 0x63'
+# 24   0x06600d9a: 'Itcl_EvalMemberCode + 0x3ba'
+# 25   0x06601f5b: 'Itcl_ExecMethod + 0x23b'
+# 26   0x06609a19: 'Itcl_EvalArgs + 0x1c9'
+# 27   0x06604cf1: 'Itcl_HandleInstance + 0x2c1'
+# 28   0x66637103: 'TclNRRunCallbacks + 0x63'
+# 29   0x66722b84: 'TclServiceIdle + 0xa74'
+# 30   0x66721f3d: 'Tcl_DeleteTimerHandler + 0x26d'
+# 31   0x666ea56d: 'Tcl_ServiceEvent + 0xed'
+# 32   0x666ea9e4: 'Tcl_DoOneEvent + 0x184'
+# 33   0x6684aee5: 'Tk_MainLoop + 0x25'
+# 34   0x6688d282: 'Tk_MainEx + 0x932'
+# 35   0x401b12fa: 'Mtirpc_Init + 0x239fa'
+# 36   0x401b3c15: 'Mtirpc_Init + 0x26315'
+# 37   0x4070066f: 'Tclsqlite3_Init + 0x1df9f'
+# 38   0x294d7bd4: 'BaseThreadInitThunk + 0x14'
+# 39   0x2962ce51: 'RtlUserThreadStart + 0x21'
+StackWalk failed 0
+# End of Stack Trace
+
